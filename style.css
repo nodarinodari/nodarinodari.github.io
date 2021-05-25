@@ -50,7 +50,7 @@
         transform: scale(1);
     }
     .hero {
-        height: 93vh;
+        height: 95vh;
         background-repeat: no-repeat;
         background-size: 100%;
         background-position: center center;
@@ -105,10 +105,10 @@
     h1 {
         margin: 0;
         padding: 0;
-        font-size: 20px;
+        font-size: 10px;
     }
     .nav {
-        margin-left: 2rem;
+        margin-left: 1rem;
         text-align-last: center;
     }
     .item-dd {
