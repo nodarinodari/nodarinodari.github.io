@@ -96,10 +96,11 @@
     h1 {
         margin: 0;
         padding: 0;
-        font-size: 20px;
+        font-size: 15px;
     }
     .nav {
-        margin-left: 2rem;
+        margin-left: 1rem;
+        font-size: 12px;
         text-align-last: auto;
     }
     .item-dd {
@@ -144,6 +145,6 @@
     }
     td {
         width: 30pc;
-        height: 90px;
+        height: 60px;
     }
 }
