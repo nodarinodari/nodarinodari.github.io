@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 70%;
+    padding: 5px 4% 1px;
+    display: flex;
+    align-items: center;
+}
+
+* a,
+li {
+    /*リセット */
+    color: black;
+    text-decoration: none;
+    list-style: none;
+}
+
+.wrapper {
+    display: flex;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+.nav {
+    margin-left: 4rem;
+    text-align-last: center;
+}
+
+.item-dd {
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.item-dd::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -5px;
+    width: 100%;
+    height: 2px;
+    background-color: #9e9e9e;
+    transform: scale(0);
+    transform-origin: center;
+    transition: transform .2s;
+}
+
+.item-dd:hover::after {
+    transform: scale(1);
+}
+
+.slideshow {
+    margin-left: 13pc;
+    list-style-type: none;
+    position: relative;
+}
+
+.slideshow>li {
+    opacity: 0;
+    position: absolute;
+    transition: opacity 3s ease-in-out;
+}
+
+.slideshow>li.showSlide {
+    opacity: 1;
+}
+
+.slideshow>li>img {
+    height: 40pc;
+    width: 60pc;
+}
