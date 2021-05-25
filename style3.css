@@ -92,10 +92,11 @@
     h1 {
         margin: 0;
         padding: 0;
-        font-size: 20px;
+        font-size: 15px;
     }
     .nav {
-        margin-left: 2rem;
+        margin-left: 1rem;
+        font-size: 12px;
         text-align-last: center;
     }
     .item-dd {
@@ -132,7 +133,7 @@
         opacity: 1;
     }
     .slideshow>li>img {
-        height: 45pc;
-        width: 21pc;
+        height: 33pc;
+        width: 18pc;
     }
 }
