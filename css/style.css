@@ -85,13 +85,14 @@
     body {
         margin: 0;
         padding: 0;
+        background-color: black;
     }
     header {
-        width: 70%;
         padding: 5px 4% 1px;
         display: flex;
         align-items: center;
         z-index: 1;
+        background-color: #fff;
     }
     a,
     li {
@@ -134,9 +135,9 @@
         transform: scale(1);
     }
     .hero {
-        height: 85vh;
+        height: 91vh;
         background-repeat: no-repeat;
-        background-size: 100%;
+        background-size: cover;
         background-position: center center;
         background-image: url("../img//test1.jpg");
     }
