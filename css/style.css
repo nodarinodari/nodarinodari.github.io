@@ -9,6 +9,7 @@
         display: flex;
         align-items: center;
         z-index: 1;
+        font-family: 'Corben', cursive;
     }
     a,
     li {
@@ -57,13 +58,13 @@
         background-image: url("../img/test1.jpg");
     }
     .title {
+        font-family: 'Londrina Shadow', cursive;
         position: absolute;
         top: 50%;
         left: 50%;
         -webkit-transform: translate(-50%, -50%);
         -moz-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
-        font-family: 'Amatic SC', cursive;
         font-size: 10pc;
         font-weight: bolder;
         line-height: 1.2;
@@ -93,6 +94,7 @@
         align-items: center;
         z-index: 1;
         background-color: #fff;
+        font-family: 'Corben', cursive;
     }
     a,
     li {
@@ -142,13 +144,13 @@
         background-image: url("../img//test1.jpg");
     }
     .title {
+        font-family: 'Londrina Shadow', cursive;
         position: absolute;
         top: 50%;
         left: 50%;
         -webkit-transform: translate(-50%, -50%);
         -moz-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
-        font-family: 'Amatic SC', cursive;
         font-size: 3pc;
         font-weight: bolder;
         line-height: 1.2;

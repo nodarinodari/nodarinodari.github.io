@@ -8,6 +8,7 @@
         padding: 5px 4% 1px;
         display: flex;
         align-items: center;
+        font-family: 'Corben', cursive;
     }
     * a,
     li {
@@ -48,28 +49,65 @@
     .item-dd:hover::after {
         transform: scale(1);
     }
-    h2 {
-        text-align: center;
-        font-size: 50px;
-    }
-    #history {
-        margin: 50px;
-    }
-    #history span {
-        display: inline-block;
-    }
-    #history span:hover {
-        transition: .4s;
-        -webkit-transform: rotateY(360deg);
-        transform: rotateY(360deg);
-    }
-    #table {
+    .profile-card {
         margin-left: auto;
         margin-right: auto;
+        margin-top: 10%;
+        width: 100%;
+        max-width: 400px;
+        background: #fff;
     }
-    td {
-        width: 24pc;
-        height: 80px;
+    .profile-card:before {
+        width: 120%;
+        height: 130px;
+        content: "";
+        transform: skew(15deg, 10deg);
+        background: #70b7ff;
+        /*斜め背景の色*/
+        position: absolute;
+        top: -15%;
+        left: -10%;
+    }
+    .profile-card__inner {
+        position: relative;
+        z-index: 1;
+    }
+    .profile-thumb {
+        overflow: hidden;
+        width: 200px;
+        height: 150px;
+        border: #fff 3px solid;
+        border-radius: 55px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        background: #fff;
+    }
+    .profile-thumb img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .profile-content {
+        margin: 0 0 10px;
+        padding: 15px;
+    }
+    .profile-content span {
+        display: block;
+    }
+    .profile-name {
+        margin-bottom: 3px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .profile-job {
+        margin-bottom: 10px;
+        color: #ccc;
+        font-size: 10px;
+        text-align: center;
+    }
+    .profile-intro {
+        font-size: 12px;
     }
 }
 
@@ -83,6 +121,7 @@
         padding: 5px 4% 1px;
         display: flex;
         align-items: center;
+        font-family: 'Corben', cursive;
     }
     * a,
     li {
@@ -124,27 +163,53 @@
     .item-dd:hover::after {
         transform: scale(1);
     }
-    h2 {
+    .profile-card {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10%;
+        width: 100%;
+        max-width: 400px;
+        background: #fff;
+    }
+    .profile-card__inner {
+        position: relative;
+        z-index: 1;
+    }
+    .profile-thumb {
+        overflow: hidden;
+        width: 200px;
+        height: 150px;
+        border: #fff 3px solid;
+        border-radius: 55px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30%;
+        background: #fff;
+    }
+    .profile-thumb img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .profile-content {
+        margin: 0 0 10px;
+        padding: 15px;
+    }
+    .profile-content span {
+        display: block;
+    }
+    .profile-name {
+        margin-bottom: 3px;
+        font-weight: bold;
         text-align: center;
-        font-size: 40px;
     }
-    #history {
-        margin: 50px;
+    .profile-job {
+        margin-bottom: 10px;
+        color: #ccc;
+        font-size: 10px;
+        text-align: center;
     }
-    #history span {
-        display: inline-block;
-    }
-    #history span:hover {
-        transition: .4s;
-        -webkit-transform: rotateY(360deg);
-        transform: rotateY(360deg);
-    }
-    #table {
-        margin-left: 3pc;
-        margin-right: 3pc;
-    }
-    td {
-        width: 30pc;
-        height: 60px;
+    .profile-intro {
+        font-size: 12px;
     }
 }
