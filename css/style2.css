@@ -108,6 +108,7 @@
     }
     .profile-intro {
         font-size: 12px;
+        text-align: center;
     }
 }
 
@@ -211,5 +212,6 @@
     }
     .profile-intro {
         font-size: 12px;
+        text-align: center;
     }
 }
