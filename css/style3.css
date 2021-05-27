@@ -8,6 +8,7 @@
         padding: 5px 4% 1px;
         display: flex;
         align-items: center;
+        font-family: 'Corben', cursive;
     }
     * a,
     li {
@@ -78,6 +79,7 @@
         padding: 5px 4% 1px;
         display: flex;
         align-items: center;
+        font-family: 'Corben', cursive;
     }
     * a,
     li {
