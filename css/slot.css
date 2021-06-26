@@ -1,0 +1,211 @@
+@media screen and (min-width: 481px) {
+    body {
+        background: #bdc3c7;
+        font-size: 16px;
+        font-weight: bold;
+        font-family: Arial, sans-serif;
+        padding: 0;
+        margin: 0;
+    }
+    #wrapper {
+        border-left: 10px solid #fff;
+        border-right: 10px solid #fff;
+        width: 800px;
+        text-align: center;
+        margin: 0 auto;
+        background-color: #b94047;
+        padding: 0;
+    }
+    main {
+        width: 400px;
+        background: #ecf0f1;
+        padding: 20px;
+        border: 4px #fff solid;
+        border-radius: 12px;
+        margin: 16px auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    header {
+        width: 700px;
+        height: 300px;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 2em;
+        /* background-image: url("../img/gogo_header01.jpg"); */
+    }
+    footer {
+        width: 300px;
+        height: 200px;
+        margin-top: 20px;
+        margin: 0 auto;
+    }
+    .panel img {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 4px;
+    }
+    .stop {
+        cursor: pointer;
+        width: 100px;
+        height: 32px;
+        background: #ef454a;
+        box-shadow: 0 4px 0 #d1483e;
+        border-radius: 16px;
+        line-height: 32px;
+        text-align: center;
+        font-size: 14px;
+        color: #fff;
+        user-select: none;
+    }
+    .flex {
+        width: 100px;
+        height: 120px;
+        box-sizing: border-box;
+        display: flex;
+        margin: 0 auto;
+    }
+    #gogo {
+        margin: 0;
+    }
+    #gogoRamp {
+        margin: 0;
+        text-align: left;
+    }
+    .gogo_off {
+        margin: 0;
+        text-align: left;
+    }
+    #spin {
+        cursor: pointer;
+        width: 100px;
+        height: 100px;
+        background: #3498db;
+        box-shadow: 0 10px 0 #2880b9;
+        border-radius: 30px;
+        line-height: 95px;
+        text-align: center;
+        color: #fff;
+        user-select: none;
+        margin: 0 auto 10px 15px;
+    }
+    .unmatched {
+        opacity: 0.5;
+    }
+    .inactive {
+        opacity: 0.5;
+    }
+    .flagarea div {
+        margin: 10px auto;
+        border: 1px solid #fff;
+        padding: 15px;
+        font-size: 20px;
+        width: 400px;
+        background: #EEE;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        background: #bdc3c7;
+        font-size: 16px;
+        font-weight: bold;
+        font-family: Arial, sans-serif;
+        padding: 0;
+        margin: 0;
+        margin-top: 8pc;
+    }
+    #wrapper {
+        width: 42pc;
+        text-align: center;
+        margin: 0 auto;
+        background-color: #b94047;
+        padding: 0;
+    }
+    main {
+        width: 500px;
+        background: #ecf0f1;
+        padding: 20px;
+        border: 4px #fff solid;
+        border-radius: 12px;
+        margin: 16px auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    header {
+        width: 42pc;
+        height: 300px;
+        text-align: center;
+        font-size: 3em;
+        /* background-image: url("../img/gogo_header01.jpg"); */
+    }
+    footer {
+        width: 300px;
+        height: 200px;
+        margin-top: 20px;
+        margin: 0 auto;
+    }
+    .panel img {
+        width: 150px;
+        height: 150px;
+        margin-bottom: 5px;
+    }
+    .stop {
+        cursor: pointer;
+        width: 100px;
+        height: 40px;
+        background: #ef454a;
+        box-shadow: 0 4px 0 #d1483e;
+        border-radius: 16px;
+        line-height: 32px;
+        text-align: center;
+        font-size: 14px;
+        color: #fff;
+        user-select: none;
+    }
+    .flex {
+        padding: 2.5% 10pc;
+        width: 40pc;
+        box-sizing: border-box;
+        display: flex;
+        margin: 0 auto;
+    }
+    #gogo {
+        margin: 0;
+    }
+    #gogoRamp {
+        margin: 0;
+    }
+    .gogo_off {
+        margin: 0;
+        text-align: left;
+    }
+    #spin {
+        cursor: pointer;
+        margin-left: 50;
+        width: 150px;
+        height: 100px;
+        background: #3498db;
+        box-shadow: 0 10px 0 #2880b9;
+        border-radius: 30px;
+        line-height: 95px;
+        text-align: center;
+        color: #fff;
+        user-select: none;
+        margin: 0 auto 10px 15px;
+    }
+    .unmatched {
+        opacity: 0.5;
+    }
+    .inactive {
+        opacity: 0.5;
+    }
+    .flagarea div {
+        margin: 10px auto;
+        border: 1px solid #fff;
+        padding: 15px;
+        font-size: 20px;
+        width: 400px;
+        background: #EEE;
+    }
+}
